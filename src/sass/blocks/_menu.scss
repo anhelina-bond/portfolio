@@ -12,7 +12,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #151812;
+        background-color: #482121;
     }    
     span.long {
         width: 36px;
@@ -62,9 +62,12 @@
         margin-bottom: 15px;
         font-size: 24px;
         font-weight: 700;
-        line-height: 36px;
-        color: #482121;
-        
+        line-height: 48px;
+        color: $text-color;
+        &:hover {
+            text-decoration: none;
+            color:#eee;
+        }
         &:before {
             content: '';
             position: absolute;
@@ -78,13 +81,13 @@
         }
         &:hover {
             &:before {
-                background-color: #FFF;
+                background-color: #eee;
             }
         }
     }
 
     &__social {
-        width: 90px;
+        width: 100px;
         position: absolute;
         display: flex;
         justify-content: space-between;
@@ -92,6 +95,14 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
+        a {
+            display: block;
+            width: 26px;
+            height: 26px;
+            img{
+                width: 100%;
+            }
+        }
     }
 
     &__overlay {

@@ -1,6 +1,7 @@
 .resume {
     background: #EEEEEE;
     padding-top: 120px;
+    padding-bottom: 50px;
     
     &__wrapper {
         padding: 60px 65px 0 65px;
@@ -35,7 +36,7 @@
                     position: absolute;
                     top: -16px;
                     left: 0;
-                    background-color: #000;
+                    background-color: #482121;
                 }
             }
         }
@@ -47,7 +48,7 @@
             height: 1px;
             width: 47px;
             position: absolute;
-            background-color: #000;
+            background-color: #482121;
             top: 68px;
         }
         &-location {
